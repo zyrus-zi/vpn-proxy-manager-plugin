@@ -1,5 +1,7 @@
 # VPN Proxy Manager
 
+[🇷🇺 Русская версия](README.ru.md)
+
 A plugin for [exteraGram](https://exteragram.app) and [AyuGram](https://ayugram.one) that automatically disables the proxy when a VPN is active on the device, and re-enables it when the VPN disconnects.
 
 ---
@@ -35,7 +37,7 @@ The plugin runs a background monitor that checks every 3 seconds whether a VPN c
 
 ## Requirements
 
-- exteraGram `11.12.0`+ or AyuGram with the same plugin engine
+- exteraGram `11.12.0`+ or AyuGram (full version only — Lite does not support plugins)
 - A proxy must be configured in Telegram settings beforehand
 
 ---
@@ -52,10 +54,10 @@ The plugin runs a background monitor that checks every 3 seconds whether a VPN c
 
 ## Compatibility
 
-| App | Supported |
-|---|---|
-| exteraGram | ✅ |
-| AyuGram | ✅ |
+| App | Supported | Side menu button |
+|---|---|---|
+| exteraGram | ✅ | ✅ up to 12.2.10 |
+| AyuGram | ✅ | ✅ 12.2.10 |
 
 ---
 
