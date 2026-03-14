@@ -54,10 +54,10 @@ The plugin runs a background monitor that checks every 3 seconds whether a VPN c
 
 ## Compatibility
 
-| App | Supported | Side menu button |
-|---|---|---|
-| exteraGram | ✅ | ✅ up to 12.2.10 |
-| AyuGram | ✅ | ✅ 12.2.10 |
+| App | Supported |
+|---|---|
+| exteraGram | ✅ |
+| AyuGram | ✅ |
 
 ---
 
