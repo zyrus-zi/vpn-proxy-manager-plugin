@@ -48,7 +48,7 @@ The plugin runs a background monitor that checks every 3 seconds whether a VPN c
 |---|---|---|
 | Auto-manage proxy | Enable/disable the core functionality | ✅ On |
 | Show notifications | Show bulletin when proxy state changes | ✅ On |
-| Button in side menu | Quick toggle in the drawer menu | ✅ On |
+| Button in side / main menu | Quick toggle in the drawer menu | ✅ On |
 
 ---
 
