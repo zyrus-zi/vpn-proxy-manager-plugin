@@ -8,7 +8,7 @@ A plugin for [exteraGram](https://exteragram.app) and [AyuGram](https://ayugram.
 
 ## How it works
 
-The plugin runs a background monitor that checks every 3 seconds whether a VPN connection is active using Android's `ConnectivityManager`. When the state changes:
+The plugin runs a background monitor that checks for an active VPN connection using Android's `ConnectivityManager`. The check interval is configurable (default: 3 sec). When the state changes:
 
 | Event | Action |
 |---|---|
@@ -23,6 +23,7 @@ The plugin runs a background monitor that checks every 3 seconds whether a VPN c
 - 🔔 In-app bulletin notifications when proxy state changes
 - ⚙️ Toggle auto-management directly from plugin settings
 - 🛡 Safe restore — only re-enables proxy if the plugin itself disabled it
+- ⏱ Configurable check interval (1–120 sec)
 
 ---
 
@@ -49,6 +50,7 @@ The plugin runs a background monitor that checks every 3 seconds whether a VPN c
 | Auto-manage proxy | Enable/disable the core functionality | ✅ On |
 | Show notifications | Show bulletin when proxy state changes | ✅ On |
 | Button in side / main menu | Quick toggle in the drawer menu | ✅ On |
+| Check interval | How often to check VPN state (1–120 sec) | 3 sec |
 
 ---
 
